@@ -1,0 +1,26 @@
+@import 'colors';
+
+.login {
+  @include position(fixed);
+  top: 0;
+  left: 0;
+
+  width: 100vh;
+  height: 100vh;
+
+  z-index: 100;
+
+  background: #f6f6f6;
+}
+
+//div.login.show
+//form.login-form
+//  div
+//    div
+//     input#username
+//     label
+//    /div
+//    button.login.button
+//  /div
+// /form
+///div

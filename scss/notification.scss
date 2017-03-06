@@ -1,0 +1,45 @@
+//a sass by Chelle:
+
+.notification-container {
+  // lower right corner, rectangular, newest on the bottom
+  position: fixed;
+  bottom: 0;
+  right: 0;
+
+  height: 100vh;
+  width: 10vh;
+
+  min-width: 250px;
+
+  .notifications {
+    //ul
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-start;
+
+    height: 100vh;
+
+    li {
+      margin: 2.5px;
+
+      .notification {
+        padding: 10px 25px;
+
+        &.connect {
+          background: #ff6460;
+        }
+        &.disconnect {
+          background-color: rgba(230, 15, 169, 0.6)
+        }
+        &.info {
+          background-color: #e2e2e2;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+.user-list{position:fixed;width:500px;height:100vh;top:0;right:0;background:yellow;transition:all 0.2s ease;transform:translateX(200vw)}.user-list.active{transform:translateX(0)}.user-list-ul{list-style:none;padding:0;margin:0;display:flex;flex-direction:column;justify-content:flex-start;align-items:center}
